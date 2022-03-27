@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventHubListener", "AzureEventHubListener\AzureEventHubListener.csproj", "{64D04CFB-4573-44EF-9541-59C3BCDDCE5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64D04CFB-4573-44EF-9541-59C3BCDDCE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D04CFB-4573-44EF-9541-59C3BCDDCE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D04CFB-4573-44EF-9541-59C3BCDDCE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D04CFB-4573-44EF-9541-59C3BCDDCE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17323C6D-52E2-4E3D-8C73-1AB4CFA73626}
+	EndGlobalSection
+EndGlobal
