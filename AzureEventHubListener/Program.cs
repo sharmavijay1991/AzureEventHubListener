@@ -59,10 +59,10 @@ namespace AzureEventHubListener
     class Program
     {
 
-        private const string ehubNamespaceConnectionString = "Endpoint=sb://vijaysharma-demo-eventhub.servicebus.windows.net/;SharedAccessKeyName=EventHubRoot;SharedAccessKey=/rxF8nLAbzgADOAg1ZlJTaGzXwmw1pytfairwmshm5g=;EntityPath=vijaysharma-demo-eventhubentity";
-        private const string eventHubName = "vijaysharma-demo-eventhubentity";
-        private const string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=vijaysharmasamplestorage;AccountKey=w6c+IrfegX1S7XdOb2qrvPKDDkPIHbNrJiNRjneslTlVyoptCSQ1xu78S1CJuqjbKdowFmHKcynU+ASt3fmjug==;EndpointSuffix=core.windows.net";
-        private const string blobContainerName = "vijaysharma-sample-storage-container";
+        private const string ehubNamespaceConnectionString = "<Event Hub connection string>";
+        private const string eventHubName = "<Event Hub Identity Name>";
+        private const string blobStorageConnectionString = "<Blob Storage Connection string>";
+        private const string blobContainerName = "<Blob Container Name>";
         static BlobContainerClient storageClient;
 
         // The Event Hubs client types are safe to cache and use as a singleton for the lifetime
